@@ -1,0 +1,287 @@
+    .display_tr {
+        background: grey;
+        border: 2px solid black;
+        width: 60%;
+        height: 40px;
+    }
+
+    .mabna_button_gray {
+        background-color: gray;
+        width: 100%;
+        height: 30px;
+    }
+
+    a:hover,
+    a:focus {
+        text-decoration: none;
+        outline: none;
+    }
+
+    .tab .nav-tabs {
+        border: none;
+        border-bottom: 2px solid #dedede;
+        margin: 0;
+        padding: 10px
+    }
+
+    body input[type="text"], body select, .color_black {
+        color: #070708f0 !important;
+    }
+    .tab .nav-tabs li a {
+        padding: 10px 20px;
+        margin: 0 10px -1px 0;
+        font-size: 15px;
+        font-weight: 600;
+        color: #070708f0;
+        text-transform: uppercase;
+        border: 2px solid transparent;
+        border-bottom: none;
+        border-radius: 5px 5px 0 0;
+        z-index: 1;
+        position: relative;
+        transition: all 0.3s ease 0s;
+    }
+
+    .tab .nav-tabs li a:hover,
+    .tab .nav-tabs li.active a {
+        background: #fff;
+        color: #ed0f68;
+        border: 2px solid #dedede;
+        border-bottom-color: transparent;
+    }
+
+    .tab .nav-tabs li a:before {
+        content: "";
+        display: block;
+        height: 2px;
+        background: #fff;
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        right: 0;
+        transform: scaleX(0);
+        transition: all 0.3s ease-in-out 0s;
+    }
+
+    .tab .nav-tabs li.active a:before,
+    .tab .nav-tabs li a:hover:before {
+        transform: scaleX(1);
+    }
+
+    .tab .tab-content {
+        padding: 10px;
+        font-size: 17px;
+        color: #6f6f6f;
+        line-height: 30px;
+        letter-spacing: 1px;
+        position: relative;
+    }
+
+    @media only screen and (max-width: 479px) {
+        /* .tab .nav-tabs {
+            border: none;
+        } */
+        /* 
+        .tab .nav-tabs li {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 15px;
+        } */
+        /* 
+        .tab .nav-tabs li a {
+            margin: 0;
+            border-bottom: 2px solid transparent;
+        } */
+
+        /* .tab .nav-tabs li a:before {
+            content: "";
+            width: 100%;
+            height: 2px;
+            background: white;
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+        } */
+    }
+
+
+    /* hamed */
+    /* input:invalid {
+        border-color: #DD2C00;
+} */
+
+    /*farshad class*/
+    .rtl-direction{
+        direction: rtl !important;
+    }
+ 
+ 
+ 
+    .tab.custom-tab,
+    .card.rounded {
+        border: none !important;
+        float: none !important;
+        border-radius: 12px !important;
+        box-shadow: 0 0px 6px 0 rgba(0, 0, 0, .18) !important;
+    }
+
+    body {
+        position: relative;
+        min-height: 100vh;
+        padding-bottom: 3em;
+    }
+
+    .custom-footer {
+        position: fixed;
+        background: linear-gradient(to left, #6A002F, #d71964) !important;
+        color: white;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        font-size: .8rem;
+        z-index: 5;
+    }
+
+    .custom-header {
+        box-shadow: 0 6px 8px 0 rgba(0, 0, 0, .16);
+    }
+
+    .tab .nav-tabs {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+
+
+
+
+    /* classes */
+    .font-xxs {
+        font-size: .6rem !important;
+    }
+
+    .no-border {
+        border: none !important;
+    }
+
+    .w-100 {
+        width: 100% !important;
+    }
+
+    .line-height-1 {
+        line-height: 1;
+    }
+
+    .justify-content-evenly {
+        justify-content: space-evenly !important;
+    }
+
+    .no-after::after {
+        content: unset !important;
+    }
+
+    .show-500 {
+        display: none;
+    }
+
+    .min-w-fit {
+        min-width: fit-content;
+        min-width: -moz-fit-content;
+    }
+
+    .fit-width {
+        width: fit-content;
+        width: -moz-fit-content;
+    }
+
+    .font-md {
+        font-size: .9em !important;
+    }
+
+    .font-bold {
+        font-weight: bold !important;
+    }
+
+    .no-overflow {
+        overflow: hidden !important;
+    }
+
+    .no-pointer-event {
+        pointer-events: none !important;
+    }
+
+
+
+
+
+
+    @media (max-width: 500px) {
+        .flwx-col-500 {
+            flex-direction: column !important;
+        }
+
+        .justify-content-center-500 {
+            justify-content: center !important;
+        }
+
+        .align-items-center-500 {
+            align-items: center !important;
+        }
+
+        .hide-500 {
+            display: none !important;
+        }
+
+        .show-500 {
+            display: block !important
+        }
+
+        .w-100-xs {
+            width: 100% !important;
+        }
+
+        .all-bill .tab .nav-tabs li a {
+            padding: .25rem;
+        }
+
+        .all-bill .tab .nav-tabs {
+            padding: 4px
+        }
+
+        .custom-footer .container,
+        .custom-header .container {
+            padding: 0 .5rem;
+        }
+    }
+
+
+    /* ///// */
+    #top .main_color .input-text,
+    #top .main_color input[type='text'],
+    #top .main_color input[type='input'],
+    #top .main_color input[type='password'],
+    #top .main_color input[type='email'],
+    #top .main_color input[type='number'],
+    #top .main_color input[type='url'],
+    #top .main_color input[type='tel'],
+    #top .main_color input[type='search'],
+    #top .main_color textarea,
+    #top .main_color select {
+        border-color: #e1e1e1;
+        background-color: #ffffff;
+        color: #bab4b8;
+    }
+    #top .input-text, #top input[type="text"], #top input[type="input"], #top input[type="password"], #top input[type="email"], #top input[type="number"], #top input[type="url"], #top input[type="tel"], #top input[type="search"], #top textarea, #top select {
+        -webkit-appearance: none;
+        border: 1px solid #e1e1e1;
+        padding: 8px 6px;
+        outline: none;
+        font: 1em "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #777;
+        margin: 0;
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+        background: #fff;
+        border-radius: 0px;
+    }
